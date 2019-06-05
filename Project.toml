@@ -1,0 +1,9 @@
+name = "QIntegration"
+uuid = "23f3c91e-8755-11e9-0c38-6b8e2ff11605"
+authors = ["neversakura <neversakura@hotmail.com>"]
+version = "0.1.0"
+
+[deps]
+PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
+QuadGK = "1fd47b50-473d-5c70-9696-f719f8f3bcdc"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
