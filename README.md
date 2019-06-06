@@ -1,2 +1,3 @@
-# QIntegration.jl
-Various tricks for calculating integrations in quantum mechanics.
+# QIntegrations.jl
+
+Various tricks for calculating numerical integrations in quantum mechanics.

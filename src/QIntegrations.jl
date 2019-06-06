@@ -1,4 +1,4 @@
-module QIntegration
+module QIntegrations
 
 using Reexport
 @reexport using QuadGK

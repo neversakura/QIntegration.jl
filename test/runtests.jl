@@ -1,6 +1,6 @@
-using QIntegration, Test
+using QIntegrations, Test
 
-@testset "QIntegration" begin
+@testset "QIntegrations" begin
 
 @test scipy_quad((x)->x,0,1)[1] == 0.5
 res = integrate_1d((x)->exp(-2*x),0,1)
