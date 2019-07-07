@@ -7,10 +7,12 @@ using Reexport
 
 export integrate_1d
 
-include("scipy_integration.jl")
+#include("scipy_integration.jl")
 #include("cuba_integration.jl")
 #include("hcubature_integration.jl")
 include("quadgk_integration.jl")
+include("cpvagk.jl")
+
 
 """
     integrate_1d(f, a, b; args=(), rtol=1e-6, atol=1e-8)
